@@ -3,7 +3,7 @@
 let qrScanner = null;
 
 if (typeof QrScanner !== 'undefined') {
-  QrScanner.WORKER_PATH = 'js/qr-scanner-worker.min.js';
+  QrScanner.WORKER_PATH = 'js/vendor/qr-scanner-worker.min.js';
 }
 
 export function startScanner(onDecodeCallback, onErrorCallback) {
