@@ -1,11 +1,11 @@
-// CertiFly Service Worker v1.4b
+// CertiFly Service Worker v2.0
 
-const CACHE_NAME = 'certifly-cache-v1.4x';
+const CACHE_NAME = 'certifly-cache-v2.0';
 
 // ASSET LIST: All local dependencies needed to run the app offline
 const ASSETS_TO_CACHE = [
-  'v4b.html',
-  'v4b.js',
+  'index.html',
+  'main.js',
   'js/config.js',
   'js/parser.js',
   'js/storage.js',
@@ -15,10 +15,10 @@ const ASSETS_TO_CACHE = [
   'js/components/dock.js', 
   'css/style.css',
   'manifest.json',
-  'js/qr-scanner.umd.min.js',
-  'js/qr-scanner-worker.min.js',
-  'icons/icon-192.png',
-  'icons/icon-512.png'
+  'js/vendor/qr-scanner.umd.min.js',
+  'js/vendor/qr-scanner-worker.min.js',
+  'assets/icons/icon-192.png',
+  'assets/icons/icon-512.png'
 ];
 
 // INSTALL: Pre-cache the App Shell
@@ -72,7 +72,7 @@ self.addEventListener('fetch', (event) => {
       // Plan C: THE FALLBACK
       // If network fails (offline) and not in cache, serve the main App Shell
       if (event.request.mode === 'navigate') {
-        return caches.match('v4b.html');
+        return caches.match('index.html');
       }
     })
   );
