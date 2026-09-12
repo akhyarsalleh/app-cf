@@ -1,6 +1,6 @@
-// v4b.js - Main Application Entry Orchestrator
+// main.js - Main Application Entry Orchestrator
 
-import { PROXY_URL, DEFAULT_THRESHOLD } from './js/config.js';
+import { PROXY_URL, DEFAULT_THRESHOLD, APP_VERSION } from './js/config.js';
 import { parseLicenseDOM } from './js/parser.js';
 import { saveToHistory, renderHistoryList, getScanHistory } from './js/storage.js';
 import { startScanner, stopScanner } from './js/scanner.js';
