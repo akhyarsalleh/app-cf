@@ -100,7 +100,7 @@ function shouldIgnore(el) {
   let curr = el;
   for (let i = 0; i < 5; i++) {
     //if (!curr) break;
-    if (!curr || !curr.tagName) break; // &lt;-- Check that curr.tagName exists
+    if (!curr || !curr.tagName) break; // <-- Check that curr.tagName exists
     const tagName = curr.tagName.toUpperCase();
     if (['TABLE', 'TBODY', 'THEAD', 'BODY', 'HTML', 'TR', 'TFOOT'].includes(tagName)) break;
     if (tagName === 'DIV') {
