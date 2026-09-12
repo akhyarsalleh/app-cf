@@ -1,0 +1,13 @@
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/index.html
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/main.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/css/style.css
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/manifest.json
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/sw.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/js/ui.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/js/storage.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/js/scanner.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/js/parser.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/js/config.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/js/components/dock.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/js/components/menu.js
+https://raw.githubusercontent.com/mabsys/app-cf/refs/heads/main/js/components/topbar.js
